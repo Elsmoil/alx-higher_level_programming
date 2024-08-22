@@ -1,0 +1,11 @@
+#!/bin/bash
+
+git add .
+
+echo "What is the commit?"
+
+read commit
+
+git commit -m $commit 
+
+git push
